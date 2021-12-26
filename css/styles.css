@@ -48,6 +48,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
+  outline: 2px solid red;
 }
 .second-header {
   display: flex;
@@ -116,7 +117,6 @@ ul {
 }
 /* main */
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .button {
@@ -160,7 +160,12 @@ ul {
   font-size: 16px;
   line-height: 1.87;
 }
-
+.button-list {
+  display: flex;
+}
+.conteiner-button {
+  align-content: center;
+}
 /* hero */
 .hero {
   background-color: var(--secondary-bgc);
@@ -194,6 +199,12 @@ ul {
   color: var(--accent-color);
 }
 /* peculiarities */
+.peculiarities-list {
+  display: flex;
+}
+.peculiarities-list .item {
+  width: 270px;
+}
 .peculiarities-section .title {
   margin-bottom: 10px;
 
@@ -207,7 +218,15 @@ ul {
   font-size: 14px;
   line-height: 1.7;
 }
+/* work */
+.work-list {
+  display: flex;
+}
+
 /* team */
+.team-list {
+  display: flex;
+}
 .team-section {
   background-color: var(--secondary-color);
 }
