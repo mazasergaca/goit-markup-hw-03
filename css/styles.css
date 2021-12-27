@@ -48,7 +48,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .second-header {
   display: flex;
@@ -123,7 +123,9 @@ ul {
   background-color: var(--secondary-color);
   color: var(--primary-black-color);
   border: none;
+  border-radius: 4px;
   cursor: pointer;
+  padding: 6px 22px;
 
   font-family: inherit;
   font-size: 16px;
@@ -162,9 +164,45 @@ ul {
 }
 .button-list {
   display: flex;
+  justify-content: center;
+}
+
+.button-list .item:not(:last-child) {
+  margin-right: 8px;
+}
+.main-section {
+  align-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .conteiner-button {
-  align-content: center;
+  /* margin-left: 300px;
+  margin-right: auto; */
+}
+.conteiner-button .section-title {
+  display: none;
+}
+
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-content .conteiner-title {
+  margin: 20px 24px;
+}
+.list-content .item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.list-content .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.list-content .item:nth-child(-n + 3) {
+  margin-top: 34px;
+}
+.list-content .item:nth-child(3n) {
+  margin-right: 0;
 }
 /* hero */
 .hero {
@@ -187,20 +225,30 @@ ul {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
 
-  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
+  letter-spacing: 0.06em;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
 }
 /* peculiarities */
+.peculiarities-section {
+  margin-top: 94px;
+}
 .peculiarities-list {
   display: flex;
+}
+.peculiarities-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 .peculiarities-list .item {
   width: 270px;
@@ -214,6 +262,9 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.peculiarities-section .section-title {
+  display: none;
+}
 .peculiarities-section .text {
   font-size: 14px;
   line-height: 1.7;
@@ -222,10 +273,24 @@ ul {
 .work-list {
   display: flex;
 }
+.work-list .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* team */
 .team-list {
   display: flex;
+  text-align: center;
+  font-size: 0;
+}
+.team-list p {
+  margin-bottom: 30px;
+}
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-list .item {
+  background-color: var(--primary-white-color);
 }
 .team-section {
   background-color: var(--secondary-color);
@@ -249,6 +314,11 @@ ul {
 .footer {
   background-color: var(--secondary-bgc);
 }
+.address {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
 .address .link {
   color: var(--white-transparent-color);
 
@@ -263,15 +333,23 @@ ul {
 
 .footer-logo {
   color: var(--primary-white-color);
-
+  display: inline-block;
+  margin-top: 60px;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.2;
 }
+
 .address .address-link {
   color: var(--primary-white-color);
 }
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+.address .link {
+  margin-bottom: 9px;
+}
+.address .link:last-child {
+  margin-bottom: 60px;
 }
