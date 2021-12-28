@@ -48,7 +48,16 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  /* outline: 2px solid red; */
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 .second-header {
   display: flex;
@@ -175,13 +184,6 @@ ul {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.conteiner-button {
-  /* margin-left: 300px;
-  margin-right: auto; */
-}
-.conteiner-button .section-title {
-  display: none;
-}
 
 .list-content {
   display: flex;
@@ -262,13 +264,14 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.peculiarities-section .section-title {
+/* .peculiarities-section .section-title {
   display: none;
-}
+} */
 .peculiarities-section .text {
   font-size: 14px;
   line-height: 1.7;
 }
+
 /* work */
 .work-list {
   display: flex;
