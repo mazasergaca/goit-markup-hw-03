@@ -7,6 +7,7 @@
   --primary-white-color: #ffffff;
   --white-transparent-color: rgba(255, 255, 255, 0.6);
   --secondary-color: #f5f4fa;
+  --border-color: #ececec;
 }
 body {
   background-color: var(--primary-white-color);
@@ -58,6 +59,9 @@ ul {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+.header {
+  border-bottom: 1px solid var(--border-color);
 }
 .second-header {
   display: flex;
@@ -127,6 +131,7 @@ ul {
 /* main */
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .button {
   background-color: var(--secondary-color);
@@ -181,16 +186,16 @@ ul {
 }
 .main-section {
   align-content: center;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .list-content {
   display: flex;
   flex-wrap: wrap;
+  font-size: 0;
 }
 .list-content .conteiner-title {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .list-content .item {
   width: calc((100% - 60px) / 3);
@@ -243,9 +248,7 @@ ul {
   color: var(--accent-color);
 }
 /* peculiarities */
-.peculiarities-section {
-  margin-top: 94px;
-}
+
 .peculiarities-list {
   display: flex;
 }
@@ -273,6 +276,9 @@ ul {
 }
 
 /* work */
+.work-section {
+  padding-top: 0;
+}
 .work-list {
   display: flex;
 }
@@ -294,6 +300,10 @@ ul {
 }
 .team-list .item {
   background-color: var(--primary-white-color);
+  /* outline: 2px solid red; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-section {
   background-color: var(--secondary-color);
