@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --primary-bgc: #e5e5e5;
   --primary-black-color: #212121;
@@ -17,14 +17,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* цвет основного текста #212121
-вторичный цвет текста rgba#757575
-белый #FFFFFF
-акцент #2196F3
-белый прозраяный rgba(255, 255, 255, 0,6)
-основной цвет фона #E5E5E5
-вторичный фон #F5F4FA
-вторичный фон #2F303A */
 h1,
 h2,
 h3,
@@ -35,14 +27,14 @@ p,
 ul {
   margin: 0;
   padding: 0;
-}
-.list {
+} */
+/* .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
-/* header */
+
 .conteiner {
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +51,7 @@ ul {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
+} */
 .header {
   border-bottom: 1px solid var(--border-color);
 }

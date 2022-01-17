@@ -1,0 +1,37 @@
+.feature-section {
+  @extend %section;
+}
+.feature-conteiner {
+  @extend %conteiner;
+}
+
+.feature-section__title {
+  @extend %visually-hidden;
+}
+
+.feature-section__list {
+  display: flex;
+  @extend %list;
+}
+
+.feature-section__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.feature-section__name {
+  margin-bottom: 10px;
+
+  line-height: 1.71;
+  text-transform: uppercase;
+
+  color: $primary-black-color;
+}
+
+.feature-section__text {
+  font-size: 14px;
+  line-height: 1.7;
+}

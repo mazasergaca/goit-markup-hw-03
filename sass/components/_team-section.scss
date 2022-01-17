@@ -1,0 +1,49 @@
+.team-section {
+  background-color: $secondary-color;
+  @extend %section;
+}
+
+.team-conteiner {
+  @extend %conteiner;
+}
+
+.team-section__title {
+  @extend %section-title;
+}
+
+.team-section__list {
+  display: flex;
+  text-align: center;
+
+  @extend %list;
+}
+
+.team-section__item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: $primary-white-color;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.team-section__name {
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  color: $primary-black-color;
+}
+.team-section__image {
+  margin-bottom: 30px;
+}
+.team-section__text {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.18;
+}
