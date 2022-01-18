@@ -527,7 +527,7 @@ ul {
 
 .team-section__info {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-section__name {
@@ -544,13 +544,9 @@ ul {
 }
 
 .page-footer {
-  border: 1px solid transparent;
-  background-color: #2f303a;
-}
-
-.footer-conteiner {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 
 .footer-address {
@@ -600,8 +596,11 @@ ul {
   margin-right: 8px;
 }
 
-.portfolio-nav__button {
+.portfolio-section__img {
   display: block;
+}
+
+.portfolio-nav__button {
   padding: 6px 22px;
   font-size: 16px;
   line-height: 1.6;
@@ -647,7 +646,9 @@ ul {
 
 .portfolio-section__info {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-section__name {

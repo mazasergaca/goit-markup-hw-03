@@ -1,11 +1,10 @@
 .page-footer {
-  border: 1px solid transparent;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: $secondary-bgc;
 }
 .footer-conteiner {
   @extend %conteiner;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address-conteiner {

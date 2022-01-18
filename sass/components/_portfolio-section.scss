@@ -16,7 +16,6 @@
 .portfolio-nav__list {
   display: flex;
   justify-content: center;
-
   @extend %list;
 }
 
@@ -25,9 +24,11 @@
     margin-right: 8px;
   }
 }
+.portfolio-section__img {
+  display: block;
+}
 
 .portfolio-nav__button {
-  display: block;
   padding: 6px 22px;
 
   font-size: 16px;
@@ -75,7 +76,9 @@
 
 .portfolio-section__info {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-section__name {
