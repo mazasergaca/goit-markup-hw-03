@@ -1,13 +1,15 @@
 .hero-section {
   height: 600px;
   max-width: 1600px;
-
-  text-align: center;
-  border-top: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
 
   background-color: $secondary-bgc;
 }
-
+.hero-conteiner {
+  text-align: center;
+  border-top: 1px solid transparent;
+}
 .hero-section__title {
   margin-bottom: 30px;
   margin-top: 200px;

@@ -4,11 +4,11 @@
 }
 .footer-conteiner {
   @extend %conteiner;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-conteiner {
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 .footer-address {

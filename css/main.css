@@ -412,9 +412,14 @@ ul {
 .hero-section {
   height: 600px;
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+}
+
+.hero-conteiner {
   text-align: center;
   border-top: 1px solid transparent;
-  background-color: #2f303a;
 }
 
 .hero-section__title {
@@ -494,6 +499,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  font-size: 0;
 }
 
 .team-section__item {
@@ -507,6 +513,11 @@ ul {
   margin-right: 30px;
 }
 
+.team-section__info {
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
 .team-section__name {
   margin-bottom: 10px;
   font-size: 16px;
@@ -515,12 +526,7 @@ ul {
   color: #212121;
 }
 
-.team-section__image {
-  margin-bottom: 30px;
-}
-
 .team-section__text {
-  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -530,9 +536,9 @@ ul {
   background-color: #2f303a;
 }
 
-.address-conteiner {
-  margin-top: 60px;
-  margin-bottom: 60px;
+.footer-conteiner {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {
@@ -583,6 +589,7 @@ ul {
 }
 
 .portfolio-nav__button {
+  display: block;
   padding: 6px 22px;
   font-size: 16px;
   line-height: 1.6;

@@ -14,6 +14,7 @@
 .team-section__list {
   display: flex;
   text-align: center;
+  font-size: 0;
 
   @extend %list;
 }
@@ -30,6 +31,11 @@
   }
 }
 
+.team-section__info {
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
 .team-section__name {
   margin-bottom: 10px;
 
@@ -40,10 +46,8 @@
   color: $primary-black-color;
 }
 .team-section__image {
-  margin-bottom: 30px;
 }
 .team-section__text {
-  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
 }
