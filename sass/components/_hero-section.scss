@@ -7,18 +7,22 @@
   background-color: $secondary-bgc;
 }
 .hero-conteiner {
-  text-align: center;
-  border-top: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
+
 .hero-section__title {
   margin-bottom: 30px;
-  margin-top: 200px;
 
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 
   color: $primary-white-color;
 }
